@@ -9,3 +9,9 @@ Configured my git global information: git config --global user.name "Nicolas Ish
 Understood the need of git init; git status; 
 Configured Ubuntu, use the terminal to make a directory (e.g. mkdir code), create a txt file (e.g. touch hello.txt)
 I had a challenge pushing to github using the ssh url because I did not generate and save my ssh key after setting up my github account. Rectified by generating the ssh key and saving in github accordingly.
+What I do each time I make a change: commit + push
+git status
+git add "filename to be added"
+git status
+git commit -m "Brief description of commit made"
+git push -u origin main
