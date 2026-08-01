@@ -1,1 +1,1 @@
-This repository keeps log of things I am learn, build and practice weekly.
+This repository keeps log of things I am learning, building and practicing weekly.
