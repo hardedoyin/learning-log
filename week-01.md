@@ -16,3 +16,14 @@ git status
 git commit -m "Brief description of commit made"
 git push -u origin main
 Took a look into some basic git commands like: git diff (to show exact changes made or removed), git clone <url>>(to clone an existing repository on your disk)
+Branching practice in your `learning-log` repo: git branch                    # see current branches (just main)
+git checkout -b experiment  # create + switch to a new branch
+Create a file `experiment.md` with some text. Commit it on the `experiment` branch. (touch experiment.md, nano experiemnt.md and write text)
+git checkout main # switch back to main
+ls # experiment.md is gone! it's only on the branch
+git checkout experiment # back to the branch
+ls # it's back
+git checkout main
+git merge experiment   # bring experiment's changes into main
+git branch -d experiment # delete the branch (it's merged)
+git push
