@@ -15,3 +15,4 @@ git add "filename to be added"
 git status
 git commit -m "Brief description of commit made"
 git push -u origin main
+Took a look into some basic git commands like: git diff (to show exact changes made or removed), git clone <url>>(to clone an existing repository on your disk)
